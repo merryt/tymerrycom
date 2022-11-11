@@ -5,7 +5,7 @@ date: 2017-1-1
 mainImg: /workimgs/denverite-cover.jpg
 ---
 
-### BUSINESS CHALLENGE
+### Business Challenge
 
 Denverite reached out to Universal Mind to assess their new company and make sure they are headed down the right path. In order to accomplish this goal we decided the best course of action was to perform a heuristic review, and conduct user research .
 

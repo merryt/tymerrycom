@@ -1,7 +1,7 @@
 ---
 author: Tyler
 title: Genos
-date: 2020-7-18
+date: 2014-7-18
 mainImg: /workimgs/genos-computer.jpg
 ---
 

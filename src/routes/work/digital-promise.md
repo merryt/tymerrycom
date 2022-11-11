@@ -1,12 +1,8 @@
 ---
 author: Tyler
 title: Digital Promise
-date: 2017-1-1
-mainImg: /workimgs/denverite-cover.jpg
----
-
-test
-
+date: 2017-6-1
+mainImg: /workimgs/digitalPromise-cover.jpg
 ---
 
 ### Business Challenge
@@ -19,24 +15,24 @@ Our challenge in this application was to consolidate an extensive list of securi
 
 For Digital Promise I was a visual designer, and front-end developer, but offered mentorship to the UX specialist on the project.
 
-<div class="aside">
-<div>
-
 ### PROTOTYPE FOR FUNDING
 
 A goal for this project is to raise funds for future stages of project research, design, and development. Universal Mind helped understand core problems, and design a prototype that both solved those problems, and allowed digital promise to secure additional funding.
 
-</div>
-<div class="image"> 
-    <img src="/workimgs/digitalPromise-cover.png">
-</div>
-</div>
+<div class="aside">
+<div>
 
 ### PROCESS
 
 This project began with understanding the space and tools educators and creators of educational software have at their disposal for understanding educational research.
 
 After some research into others in the space, and the needs of the user we began building out wireframes and user flows to show to others and gather feedback.
+
+</div>
+<div class="image"> 
+    <img src="/workimgs/digitalPromise-whiteboard.jpg">
+</div>
+</div>
 
 ### VISUAL DESIGN
 

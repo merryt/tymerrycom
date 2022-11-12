@@ -18,7 +18,7 @@
 	}
 	nav > a {
 		text-decoration: none;
-		color: #fff;
+		color: #f8f8f8;
 		margin-left: 2px;
 		padding: 10px 18px;
 		font-size: 18px;

@@ -20,7 +20,7 @@
 		text-decoration: none;
 		color: #fff;
 		margin-left: 2px;
-		padding: 10px 20px;
+		padding: 10px 18px;
 		font-size: 18px;
 		font-family: var(--font-display);
 		border-radius: 8px;

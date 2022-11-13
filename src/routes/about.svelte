@@ -13,7 +13,9 @@
 		tell you
 		<a href="https://tymerry.com/best-game-to-stream.html"
 			>what games on twitch are getting a lot of viewers</a
-		> or financial calculators [https://tymerry-calculators.netlify.com/](https://tymerry-calculators.netlify.com/).
-		If you want to reach out to me perhaps send a message to [my linkedin](https://www.linkedin.com/in/merryt/)!
+		>
+		or <a href="https://tymerry-calculators.netlify.com/">financial calculators</a>. If you want to
+		reach out to me perhaps send a message to
+		<a href="https://www.linkedin.com/in/merryt/">my linkedin</a>!
 	</p>
 </div>

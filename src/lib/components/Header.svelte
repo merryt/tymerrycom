@@ -1,5 +1,6 @@
 <!-- Header.svelte -->
 <header>
+	<span class="logo">TM</span>
 	<nav>
 		<a href="/">Home</a>
 		<a href="/blog">Blog</a>
@@ -10,9 +11,20 @@
 </header>
 
 <style>
-	nav {
+	header {
+		display: flex;
+		justify-content: space-between;
 		width: var(--container-width);
 		margin: 24px auto 0 auto;
+	}
+
+	.logo {
+		font-family: var(--font-display);
+		font-size: 24px;
+		font-weight: 900;
+	}
+
+	nav {
 		display: flex;
 		justify-content: flex-end;
 	}

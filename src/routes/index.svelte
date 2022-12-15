@@ -20,11 +20,11 @@
 
 <div class="home">
 	<div class="home--hero">
-		<h1>
-			HEY!<br />
+		<h1>HEY!</h1>
+		<h2 class="skinny">
 			My name is Tyler,<br />
 			I make things on the internet
-		</h1>
+		</h2>
 		<h3>I am not special but you make me feel that way, thanks for checking me out!</h3>
 	</div>
 	<div class="home--images">
@@ -94,6 +94,15 @@
 	.home--hero h1 {
 		font-size: 70px;
 		line-height: 74px;
+		margin-bottom: 0;
+	}
+	.home--hero h2 {
+		font-weight: 200;
+		font-size: 54px;
+		margin: 0;
+	}
+	.home--hero h3 {
+		margin-top: 5px;
 	}
 	.home--images {
 		display: grid;

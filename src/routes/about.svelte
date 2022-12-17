@@ -24,13 +24,14 @@
 		<li>Regularly volunteer and teach with Denver Public Libraries code camps.</li>
 		<li>Technical reviewed two development</li>
 		<li>Books (Pro React, and Pro Vagrant)</li>
-		<li>Host and organizer of Denver UX.</li>
+		<li>One of two creators who took Denver UX from 0 to 1500 members.</li>
 		<li>Regular speaker at design and tech meetups</li>
 	</ul>
 	<h2>If You Would Like To Learn More About Me</h2>
 	<ul>
 		<li>www.dribbble.com/tymerry</li>
-		<li>https://www.behance.net/merry</li>
+		<li>https://www.behance.net/merryt</li>
+		<li>https://www.github.com/merryt</li>
 	</ul>
 </div>
 

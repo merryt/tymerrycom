@@ -19,7 +19,8 @@
 	}
 
 	.logo {
-		font-family: var(--font-display);
+		font-family: 'Merriweather', serif;
+		/* font-family: var(--font-display); */
 		font-size: 24px;
 		font-weight: 900;
 	}

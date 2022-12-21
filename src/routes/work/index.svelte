@@ -41,6 +41,9 @@
 		display: flex;
 		margin-bottom: 10px;
 		align-items: stretch;
+		border-radius: 6px;
+		border: 1px solid #333;
+		overflow: hidden;
 	}
 	.work-item-img-container {
 		width: 300px;

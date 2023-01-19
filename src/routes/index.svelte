@@ -168,7 +168,7 @@
 	}
 	.home--post {
 		flex: 1 1 300px;
-		background: #fff;
+		background-color: #fff;
 		box-sizing: border-box;
 		border-radius: 4px;
 		box-shadow: 1px 3px 8px rgba(39, 44, 49, 0.03);
@@ -202,7 +202,6 @@
 	.home--post p {
 		font-size: 15px;
 		font-weight: 400;
-		font-family: Georgia, sans-serif;
 		color: #15171a;
 	}
 </style>

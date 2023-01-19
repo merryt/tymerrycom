@@ -1,19 +1,29 @@
-@import url('https://fonts.googleapis.com/css?family=Merriweather|Source+Sans+Pro:300,400,600,700,900&display=block');
+@font-face {
+	font-family: 'Mona Sans';
+	src:
+		url('/Mona-Sans/Mona-Sans.woff2') format('woff2 supports variations'),
+		url('/Mona-Sans/Mona-Sans.woff2') format('woff2-variations');
+	font-weight: 200 900;
+	font-stretch: 75% 125%;
+}
+
+html {
+	font-family: 'Mona Sans';
+}
 
 :root {
-	--darkColor: #1e2125;
+	--backgroundColor: #f4f8fb;
+	--textColor: #1e2125;
 	--accentColor: #589fbf;
 	--container-width: 60rem;
 	--container-max-width: 60rem;
-	--font-display: 'Merriweather', serif;
 }
 
 
 body {
 	margin: 0;
-	background: var(--darkColor);
-	color: #fff;
-	font-family: 'Source Sans Pro', Helvetica, sans-serif;
+	background: var(--backgroundColor);
+	color: var(--textColor);
 	font-size: 16px;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
@@ -52,9 +62,8 @@ h3,
 h4,
 h5,
 h6 {
-	font-weight: 600;
+	font-weight: 900;
 	line-height: 1.25;
-	font-family: var(--font-display);
 }
 
 a {
@@ -92,9 +101,9 @@ ol {
 	padding-top: 20px;
 	height: 100%;
 	min-height: 100vh;
-	background-color: rgba(0, 0, 0, 0.25);
+	background-color: #fff;
 	box-sizing: border-box;
-	color: #efefef;
+	color: var(--textColor);
 }
 
 .article-page h1 {

@@ -32,6 +32,6 @@
 		padding: 10px;
 	}
 	footer a {
-		color: #fff;
+		color: var(--textColor);
 	}
 </style>

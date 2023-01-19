@@ -19,7 +19,6 @@
 	}
 
 	.logo {
-		font-family: var(--font-display);
 		font-size: 24px;
 		font-weight: 900;
 	}
@@ -34,7 +33,6 @@
 		margin-left: 2px;
 		padding: 10px 18px;
 		font-size: 18px;
-		font-family: var(--font-display);
 		border-radius: 8px;
 		transition: background-color 0.25s ease-in-out;
 	}

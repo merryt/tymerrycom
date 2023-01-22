@@ -2,8 +2,6 @@
 
 ### Blocking
 
-- style blog pages
-- examine current blog to see what is missing
 - responsive list sections
 
 ### Non-blocking

@@ -20,9 +20,7 @@
 	{#each posts as post}
 		<div class="work-item item-boxshadow">
 			<div>
-				<div class="work-item-img-container" style="background-image: url('{post.meta.mainImg}')">
-					<!-- <img src={post.meta.mainImg} alt={post.meta.title} class="work-item-img" /> -->
-				</div>
+				<div class="work-item-img-container" style="background-image: url('{post.meta.mainImg}')" />
 			</div>
 			<div class="work-item-content">
 				<h2 class="work-item-header">
@@ -49,6 +47,16 @@
 		width: 300px;
 		background-size: cover;
 		height: 100%;
+	}
+	@media (max-width: 750px) {
+		.work-item {
+			flex-direction: column;
+		}
+		.work-item-img-container {
+			background-position: center;
+			width: 100%;
+			height: 100px;
+		}
 	}
 
 	.work-item-content {

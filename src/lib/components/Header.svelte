@@ -14,9 +14,14 @@
 	header {
 		display: flex;
 		justify-content: space-between;
-		width: var(--container-width);
+		max-width: var(--desktop-container-width);
 		margin: 24px auto 0 auto;
 		align-items: center;
+	}
+	@media (max-width: 999px) {
+		header {
+			padding: 0 10px;
+		}
 	}
 
 	.logo {
@@ -24,10 +29,24 @@
 		line-height: 24px;
 		font-weight: 900;
 	}
+	@media (max-width: 600px) {
+		header {
+			width: 100%;
+		}
+		.logo {
+			display: none;
+		}
+	}
 
 	nav {
 		display: flex;
 		justify-content: flex-end;
+	}
+	@media (max-width: 600px) {
+		nav {
+			justify-content: space-between;
+			width: 95%;
+		}
 	}
 	nav > a {
 		text-decoration: none;
@@ -43,5 +62,12 @@
 	nav > a:hover {
 		border-bottom-width: 16px;
 		padding-bottom: 0;
+	}
+
+	@media (max-width: 600px) {
+		nav > a {
+			justify-content: space-between;
+			padding: 4px;
+		}
 	}
 </style>

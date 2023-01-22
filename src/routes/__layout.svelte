@@ -13,7 +13,6 @@
 <footer>
 	<span>Tyler Merry</span>
 	<div>
-		<a href="/blog/my-design-process">Process</a>
 		<a href="https://github.com/merryt" class="nav-item">Code</a>
 		<a href="https://www.behance.net/merryt" class="nav-item">Portfolio</a>
 		<a href="https://dribbble.com/tymerry" class="nav-item">Dribbble</a>

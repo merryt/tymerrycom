@@ -88,7 +88,7 @@
 	}
 	@media only screen and (min-device-width: 500px) {
 		.home--hero {
-			margin: 58px 0;
+			margin: 29px 0 58px 0;
 		}
 	}
 	.home--hero h1 {

@@ -16,9 +16,10 @@ html {
 	--textColor: #1e2125;
 	--accentColor: #589fbf;
 	--darkColor: rgba(5, 23, 40, .99);
-	--container-width: 60rem;
+	--desktop-container-width: 60rem;
 	--container-max-width: 60rem;
 }
+
 
 
 body {
@@ -31,12 +32,21 @@ body {
 }
 
 main {
-	width: var(--container-width);
-	/* background-color: rgba(0, 0 ,0, 0.25); */
-	padding: 1rem;
+	width: var(--desktop-container-width);
+	min-height: calc(100vh - 117px - 3rem);
 	margin: 1rem auto 2rem auto;
 	max-width: var(--container-max-width);
+	box-sizing: border-box;
 }
+
+@media (max-width: 999px) {
+	main {
+		width: calc(100% - 20px);
+		margin: 10px;
+		min-height: calc(100vh - 94px - 3rem);
+	}
+}
+
 
 html,
 body {
@@ -46,7 +56,7 @@ body {
 	-webkit-text-size-adjust: 100%;
 }
 
-@media only screen and (min-device-width: 500px) {
+@media (max-width: 500px) {
 	.theme-container {
 		display: grid;
 		grid-template-columns: 5% 100px auto calc(5% + 100px);
@@ -133,6 +143,12 @@ ol {
 	font-size: 20px;
 	line-height: 14px;
 	max-width: 800px;
+}
+
+@media (max-width: 999px) {
+	.content {
+		padding: 10px;
+	}
 }
 
 .content h3 {

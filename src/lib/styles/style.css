@@ -68,7 +68,7 @@ h6 {
 }
 
 a {
-	color: #7ebdc2;
+	color: var(--accentColor);
 }
 
 p,
@@ -122,7 +122,7 @@ ol {
 	text-align: center;
 	text-transform: uppercase;
 	color: #336699;
-	text-weight: 800;
+	font-weight: 800;
 }
 
 .content {

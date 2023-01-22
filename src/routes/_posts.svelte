@@ -26,7 +26,7 @@
 
 {#if mainImg}
 	<div class="hero">
-		<img src={mainImg} />
+		<img src={mainImg} alt={title} />
 	</div>
 {/if}
 <div class="article-page item-boxshadow">

@@ -51,9 +51,6 @@
 		height: 100%;
 	}
 
-	.work-item-img {
-		width: 300px;
-	}
 	.work-item-content {
 		margin-top: 10px;
 		margin-left: 10px;

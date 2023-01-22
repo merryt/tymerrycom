@@ -1,8 +1,15 @@
 # TODO
 
-- Switch font over to the font github created.
+### Blocking
+
 - style blog pages
 - examine current blog to see what is missing
+- responsive list sections
+
+### Non-blocking
+
+-Add description to blog posts page so their is an overview before you read the
+full article.
 
 # create-svelte
 

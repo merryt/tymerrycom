@@ -18,7 +18,7 @@
 
 <div class="work-items">
 	{#each posts as post}
-		<div class="work-item">
+		<div class="work-item item-boxshadow">
 			<div>
 				<div class="work-item-img-container" style="background-image: url('{post.meta.mainImg}')">
 					<!-- <img src={post.meta.mainImg} alt={post.meta.title} class="work-item-img" /> -->
@@ -42,7 +42,7 @@
 		margin-bottom: 10px;
 		align-items: stretch;
 		border-radius: 6px;
-		border: 1px solid #333;
+		background-color: #fff;
 		overflow: hidden;
 	}
 	.work-item-img-container {
@@ -55,6 +55,7 @@
 		width: 300px;
 	}
 	.work-item-content {
+		margin-top: 10px;
 		margin-left: 10px;
 	}
 	.work-item-header {

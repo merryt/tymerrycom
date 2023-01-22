@@ -17,7 +17,7 @@
 <h1>Blog</h1>
 
 {#each posts as post}
-	<div class="post">
+	<div class="post item-boxshadow">
 		<h2>
 			<a href={post.path}>
 				{post.meta.title}
@@ -29,11 +29,7 @@
 
 <style>
 	.post {
-		border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+		padding: 5px 10px 10px 10px;
 		margin-bottom: 10px;
-		padding-bottom: 10px;
-	}
-	.post:last-of-type {
-		border-bottom: none;
 	}
 </style>

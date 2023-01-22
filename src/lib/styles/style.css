@@ -20,6 +20,7 @@ html {
 	--container-max-width: 60rem;
 }
 
+
 body {
 	margin: 0;
 	background: var(--backgroundColor);
@@ -81,6 +82,10 @@ ol {
 	max-width: 1250px;
 }
 
+.item-boxshadow {
+	background-color: #fff;
+	box-shadow: 1px 3px 8px rgba(39, 44, 49, 0.03);
+}
 
 
 /* blog/work styles */
@@ -101,7 +106,6 @@ ol {
 	padding-top: 20px;
 	height: 100%;
 	min-height: 100vh;
-	background-color: #fff;
 	box-sizing: border-box;
 	color: var(--textColor);
 }
@@ -149,8 +153,9 @@ ol {
 	display: flex;
 	width: 135%;
 	margin-left: -20%;
-	background-color: rgba(10, 10, 10, 0.75);
 	padding: 20px;
+	background-color: #fff;
+	box-shadow: 1px 3px 8px rgba(39, 44, 49, 0.15);
 }
 
 .aside p {

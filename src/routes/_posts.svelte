@@ -29,7 +29,7 @@
 		<img src={mainImg} />
 	</div>
 {/if}
-<div class="article-page">
+<div class="article-page item-boxshadow">
 	<div class="article-date">{updatedDate}</div>
 
 	<h1>{title}</h1>

@@ -23,15 +23,21 @@
 
 <style>
 	footer {
-		background-color: rgba(0, 0, 0, 0.25);
+		background-color: var(--darkColor);
 		width: calc(100%-20px);
 		height: 25px;
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
+		color: var(--backgroundColor);
 		padding: 10px;
 	}
 	footer a {
-		color: var(--textColor);
+		color: var(--backgroundColor);
+		text-decoration: none;
+		margin-left: 10px;
+	}
+	footer a:hover {
+		text-decoration: underline;
 	}
 </style>

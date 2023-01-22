@@ -62,9 +62,9 @@
 		</p>
 	</div>
 
-	<div class="home--post-container">
+	<div class="home--posts">
 		{#each posts.slice(0, 5) as post}
-			<article class="home--post">
+			<article class="home--post item-boxshadow">
 				{#if post.meta.mainImg}
 					<div class="home--post-image" style="background-image: url({post.meta.mainImg})" />
 				{:else}
@@ -161,7 +161,7 @@
 	.home--info p {
 		text-align: center;
 	}
-	.home--post-container {
+	.home--posts {
 		width: 90%;
 		margin: -30px auto 0 auto;
 		display: flex;
@@ -170,10 +170,8 @@
 	}
 	.home--post {
 		flex: 1 1 300px;
-		background-color: #fff;
 		box-sizing: border-box;
 		border-radius: 4px;
-		box-shadow: 1px 3px 8px rgba(39, 44, 49, 0.03);
 		margin: 0 20px 40px 20px;
 	}
 	.home--post-content {

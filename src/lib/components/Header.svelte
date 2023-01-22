@@ -16,10 +16,12 @@
 		justify-content: space-between;
 		width: var(--container-width);
 		margin: 24px auto 0 auto;
+		align-items: center;
 	}
 
 	.logo {
 		font-size: 24px;
+		line-height: 24px;
 		font-weight: 900;
 	}
 
@@ -29,15 +31,17 @@
 	}
 	nav > a {
 		text-decoration: none;
-		color: #f8f8f8;
+		color: var(--darkColor);
 		margin-left: 2px;
 		padding: 10px 18px;
+		font-weight: 800;
 		font-size: 18px;
-		border-radius: 8px;
-		transition: background-color 0.25s ease-in-out;
+		border-bottom: 6px solid var(--accentColor);
+		transition: all 0.25s ease-in-out;
 	}
 
 	nav > a:hover {
-		background-color: rgba(0, 0, 0, 0.25);
+		border-bottom-width: 16px;
+		padding-bottom: 0;
 	}
 </style>

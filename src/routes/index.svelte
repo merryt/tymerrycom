@@ -22,7 +22,7 @@
 	<div class="home--hero">
 		<h1>HEY!</h1>
 		<h2 class="skinny">
-			My name is Tyler,<br />
+			My name is <strong>Tyler</strong>,<br />
 			I make things on the internet
 		</h2>
 		<h3>I am not special but you make me feel that way, thanks for checking me out!</h3>
@@ -95,6 +95,8 @@
 		font-size: 70px;
 		line-height: 74px;
 		margin-bottom: 0;
+		display: inline-block;
+		border-bottom: 16px solid var(--accentColor);
 	}
 	.home--hero h2 {
 		font-weight: 200;

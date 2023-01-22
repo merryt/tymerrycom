@@ -12,13 +12,13 @@ html {
 }
 
 :root {
-	--backgroundColor: #f4f8fb;
+	--backgroundColor: #fdf9fa;
 	--textColor: #1e2125;
 	--accentColor: #589fbf;
+	--darkColor: rgba(5, 23, 40, .99);
 	--container-width: 60rem;
 	--container-max-width: 60rem;
 }
-
 
 body {
 	margin: 0;

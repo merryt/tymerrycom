@@ -1,13 +1,11 @@
 # TODO
 
-### Blocking
-
-- responsive list sections
-
 ### Non-blocking
 
--Add description to blog posts page so their is an overview before you read the
-full article.
+- Add description to blog posts page so their is an overview before you read the
+  full article.
+- Fix dates for blog posts
+- Add more content
 
 ## Developing
 

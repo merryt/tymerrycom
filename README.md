@@ -1,11 +1,10 @@
 # TODO
 
-### Non-blocking
-
 - Add description to blog posts page so their is an overview before you read the
   full article.
 - Fix dates for blog posts
 - Add more content
+- Get VITE upgraded to 4.0.4
 
 ## Developing
 

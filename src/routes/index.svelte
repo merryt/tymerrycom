@@ -173,6 +173,8 @@
 		box-sizing: border-box;
 		border-radius: 4px;
 		margin: 0 20px 40px 20px;
+		border: 1px solid #e5e5e5;
+		overflow: hidden;
 	}
 	.home--post-content {
 		margin: 15px;

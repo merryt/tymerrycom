@@ -32,5 +32,7 @@
 	.post {
 		padding: 5px 10px 10px 10px;
 		margin-bottom: 10px;
+		border: 1px solid #e5e5e5;
+		overflow: hidden;
 	}
 </style>

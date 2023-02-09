@@ -42,6 +42,7 @@
 		border-radius: 6px;
 		background-color: #fff;
 		overflow: hidden;
+		border: 1px solid #e5e5e5;
 	}
 	.work-item-img-container {
 		width: 300px;

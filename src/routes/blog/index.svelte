@@ -12,6 +12,7 @@
 
 <script>
 	export let posts;
+	import UpdatedDate from '$lib/components/UpdatedDate.svelte';
 </script>
 
 <h1>Blog</h1>
@@ -23,7 +24,7 @@
 				{post.meta.title}
 			</a>
 		</h2>
-		Published {post.meta.date}
+		Published <UpdatedDate date={post.meta.date} />
 	</div>
 {/each}
 

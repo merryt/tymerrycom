@@ -2,11 +2,10 @@
 
 - Add description to blog posts page so their is an overview before you read the
   full article.
-- Fix dates for blog posts
 - Add more content
 - Get VITE upgraded to 4.0.4
-- add `border: 1px solid #e5e5e5;` to the cards like `.home--post` to give the cards a little more contrasts
-
+- add `border: 1px solid #e5e5e5;` to the cards like `.home--post` to give the
+  cards a little more contrasts
 
 ## Developing
 

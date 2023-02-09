@@ -4,8 +4,6 @@
   full article.
 - Add more content
 - Get VITE upgraded to 4.0.4
-- add `border: 1px solid #e5e5e5;` to the cards like `.home--post` to give the
-  cards a little more contrasts
 
 ## Developing
 

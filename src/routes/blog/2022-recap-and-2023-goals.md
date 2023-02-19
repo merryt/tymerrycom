@@ -37,7 +37,7 @@ I wanted to create something like the zen of python that I use to guide some of 
 ### **What I hope to do in 2023**
 - I saw me weight jump as high as 193 in the stress of helping care for Randi's dad in his final days, I am guessing that had a lot to do with the place he was living had a ton of access to candy and junk food. I would like to see that drop down to 175 again. I am going to accomplish this by the following. 
 	- Run 5 miles with out walking 1 time thought out the year.
-	- Continue using my timer between first course and seconds for meals.
+	- Continue using my timer between firsts and seconds for meals.
 - My current blog is built using a piece of software I wrote that uses google drive to get articles from. This worked well, but was reasonably brittle. 
 	- Launch a new blog using a different tech stack
 	- Write 5 posts for tymerry.com

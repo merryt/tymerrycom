@@ -14,6 +14,7 @@ const config = {
 			layout: {
 				blog: 'src/routes/_posts.svelte',
 				work: 'src/routes/_posts.svelte',
+				chess: 'src/routes/_posts.svelte',
 			}
 		})
 	]

@@ -7,7 +7,7 @@ author: Tyler
 ### **What I hoped to accomplish**
 
 - Be supportive of family during trying times. This will be demonstrated by physical and emotional proximity and support. **Yep, We took ~2 months off to take care of Randi's dad**
-- Have a better understanding of what motivates me. This will be demonstrated by a 14 day period of feeling productive without a fiscal reward. **I**
+- Have a better understanding of what motivates me. This will be demonstrated by a 14 day period of feeling productive without a fiscal reward. **Through out the year I had several little side projects I made, that I enjoyed. I built a system to keep track of my personal possessions in a new backend js framework. I also starte building a system to keep track of the movies and TV shows I have watched in a way where I can prioritize what I am watching in the future**
 - Beat the video game Portal 2. **Yep**
 - Beat the video Back 4 blood **Yep**
 - Beat the video game Hadies. **Yep**

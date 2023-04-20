@@ -1,8 +1,8 @@
 ---
 title: Atomic Habits
-date: 2023-4-20
+date: 2023-4-18
 author: Tyler
-photo: /atomic-habits-scaled.jpeg
+mainImg: /atomic-habits-scaled.jpeg
 ---
 
 I read this Atomic Habits in May 2020. I didn't take any notes, I don't really remember much about the book, but two years later when I look back I have had habits that I didn't think I ever would. I have brushed and flossed my teeth every day since then, I have over a year streak in Duolingo, I read every day. I use to beat myself up for not remembering everything I read in a book. Maybe I should be trying harder to remember all the details of a book?

@@ -12,7 +12,7 @@
 		<a href="http://travelsaveandbemerry.com/">love to travel</a>. Some of my favorite places so far
 		have been Ljubljana and Kuala Lumpur. I like to build silly little programs that do stuff like
 		tell you
-		<a href="https://tymerry.com/best-game-to-stream.html"
+		<a href="https://tymerry.com/blog/best-game-to-stream"
 			>what games on twitch are getting a lot of viewers</a
 		>
 		or <a href="https://tymerry-calculators.netlify.com/">financial calculators</a>. If you want to

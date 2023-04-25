@@ -1,5 +1,5 @@
 <div>
-	<h1>This I own/use</h1>
+	<h1>What I use</h1>
 	I have a very small collection of things that I use very frequently. For the past few months I have
 	been traveling so my office/desk supplies are very much limited to what the plalce I am staying has
 	on has.

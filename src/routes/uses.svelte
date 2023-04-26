@@ -24,6 +24,12 @@
 			weight
 		</li>
 		<li>
+			<strong>USB-C second monitor</strong> - I have a cheap second monitor, brand is Arzopa. Color accuracy
+			is iffy, it no longer runs both data and power off USB-C (needs hdmi + usbc power). despite its
+			downsides it is great to have a second screen with documentation on it. Brand/model is Arzopa A1
+			Gamut Mini.
+		</li>
+		<li>
 			<strong>NuPhy Air v75</strong> Has been working great for me so far, probably could have saved
 			a little weight and size going with the v60, but the switches and keycaps are great. I have tried
 			a slew of mechanical keyboards in a variety of configurations. I previously traveled with a WASD

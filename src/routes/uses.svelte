@@ -49,7 +49,7 @@
 		</li>
 		<li>
 			<strong>VSCode</strong> - I spent some time getting good at emacs but it felt like my ide was broken
-			20% of the time and it was turning into a barrier to learning anything other then emacs
+			20% of the time and it was turning ginto a barrier to learnin anything other then emacs
 		</li>
 	</ul>
 </div>

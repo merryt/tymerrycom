@@ -6,6 +6,7 @@
 		<a href="/blog">Blog</a>
 		<a href="/work">Work</a>
 		<a href="/uses">Uses</a>
+		<a href="https://github.com/merryt">Code</a>
 		<a href="/about">About</a>
 	</nav>
 </header>

@@ -14,8 +14,6 @@
 	export let posts;
 </script>
 
-<h1>Blog</h1>
-
 <div class="work-items">
 	{#each posts as post}
 		<div class="work-item item-boxshadow">

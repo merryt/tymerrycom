@@ -17,6 +17,8 @@
 		<a href="https://www.behance.net/merryt" class="nav-item">Portfolio</a>
 		<a href="https://dribbble.com/tymerry" class="nav-item">Dribbble</a>
 		<a href="https://www.linkedin.com/in/merryt" class="nav-item">LinkedIn</a>
+		<a href="/uses">Uses</a>
+		<a href="/blog">Blog</a>
 	</div>
 </footer>
 

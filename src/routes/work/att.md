@@ -42,9 +42,7 @@ the project was a technical architect and a project manager.
 
 I used both their strategic and experience focused approach, concentrating on
 identifying a visionary path forward to facilitate alignment as AT&T transition
-from theoretical to practical.
-
-The process, designed to be iterative, involved 62 interviews, split between
+from theoretical to practical. The process, designed to be iterative, involved 62 interviews, split between
 customers, sales teams, and subject matter expert interviews. From kickoff to
 final presentation the full project lasted 3 months. It resulted in
 recommendations to advance the managed security services offerings supported by
@@ -68,6 +66,9 @@ members of the sales team.
 
 </div>
 </div>
+
+Personas
+​​​​​​​Personas
 
 Personas are built through direct interviews with users, capturing observed
 patterns of behaviors and attitudes. They come in a variety of sizes most
@@ -102,12 +103,13 @@ make small changes before problems got to large to fix.
 ### CULTURAL AND COMPETITIVE ANALYSIS
 
 A Cultural Analysis addresses the Purposes, Practices, and People of an
-organization and compares them to the Customer Advocacy, Perfect Execution,
+organization and compares them to the other companies in the space.
 
 What is happening internally is only part of the picture — AT&T had spent years
 growing its relationships with its customers, and with its internal stake
-holders, but competitors are changing daily. It is important to know where you
-compare to others in the space.
+holders, but competitors are changing daily.
+
+It is important to know where you compare to others in the space.
 
 ### EXPERIENCE VISION
 

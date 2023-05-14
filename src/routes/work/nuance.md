@@ -58,7 +58,7 @@ some of the benefits of our proposed solution.
 
 For this experience vision we followed Dr. Olivia Lawrence a seasoned physician
 working within a busy, metropolitan-based hospital as she went threw her day to
-day life with DMA
+day life with DMA.
 
 ### HEURISTIC REVIEW
 

@@ -7,11 +7,10 @@
 		technical review books, but my favorite thing to do is to volunteer at the library teaching kids
 		to code, and at a local bike shop that helps people fix their bikes for free/cheap. I am a
 		lifelong learner and helper. For a picture of what I prioritize in live checkout <a
-			href="/blog/2021-recap-and-2022-goals">my goals from 2021</a
-		>. I currently live in Colorado and
-		<a href="http://travelsaveandbemerry.com/">love to travel</a>. Some of my favorite places so far
-		have been Ljubljana and Kuala Lumpur. I like to build silly little programs that do stuff like
-		tell you
+			href="/blog/2022-recap-and-2023-goals">my goals for 2023</a
+		>.In 2022 We left our full time jobs to travel and contract,
+		<a href="http://travelsaveandbemerry.com/">we write about our on our blog</a>. I like to build
+		silly little programs that do stuff like tell you
 		<a href="https://tymerry.com/blog/best-game-to-stream"
 			>what games on twitch are getting a lot of viewers</a
 		>
@@ -27,11 +26,11 @@
 		<li>One of two creators who took Denver UX from 0 to 1500 members.</li>
 		<li>Regular speaker at design and tech meetups</li>
 	</ul>
-	<h2>If You Would Like To Learn More About Me</h2>
+	<h2>Learn More</h2>
 	<ul>
-		<li>www.dribbble.com/tymerry</li>
-		<li>https://www.behance.net/merryt</li>
-		<li>https://www.github.com/merryt</li>
+		<li><a href="www.dribbble.com/tymerry">Dribbble</a></li>
+		<li><a href="https://www.behance.net/merryt">Behance</a></li>
+		<li><a href="https://www.github.com/merryt">Github</a></li>
 	</ul>
 </div>
 

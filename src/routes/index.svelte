@@ -57,7 +57,7 @@
 			hiking trails.
 		</p>
 		<p>
-			Previously I spoke at conferences, and run meetups in Denver. Now I try to help more one on
+			Previously I spoke at conferences, and ran meetups in Denver. Now I try to help more one on
 			one!
 		</p>
 	</div>

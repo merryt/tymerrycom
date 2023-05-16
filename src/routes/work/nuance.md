@@ -10,7 +10,7 @@ description: Did research for a doctor focused project that speeds up the note t
 
 Nuance Reached out to Universal Mind to help redefine a digital, voice based
 assistant for medical professionals. Nuance faced the problem of not knowing
-user research best practices and being overly familiar with the subject mater
+user research best practices and being overly familiar with the subject matter
 and development problems to come at the problem with a fresh set of eyes.
 
 Doctor’s time and attention is extremely rare. Everyone knows this — Dragon
@@ -23,9 +23,9 @@ Dragon Medical Adviser (DMA) is an attempt to do what DMA did for transcription,
 to the space of note accuracy, billing, and coding.
 
 Our challenge in this application was to build a tool that benefits doctors from
-the moment they first turn it one, with out increasing their alert fatigue and
-reduce the amount of churn between coding/billing teams and the physicians they
-support. We offered reconditions for both DMO and DMA.
+the moment they first turn it on, without increasing their alert fatigue and
+reducing the amount of churn between coding/billing teams and the physicians they
+support. We offered recommendations for both DMO and DMA.
 
 **My specific role on this project was the UX lead.**
 
@@ -50,10 +50,10 @@ face and potential solutions.
 
 ### EXPERIENCE VISION
 
-A major part of universal minds process is gaining empathy with users of
+A major part of Universal Mind's process is gaining empathy with users of
 software. This empathy is hard to give away or present in a few sentences, so
 what we did for this project was create a series of slides and illustrations
-that allow us to tell the story of what a physicians life is like a highlighting
+that allow us to tell the story of what a physician's life is like, highlighting
 some of the benefits of our proposed solution.
 
 For this experience vision we followed Dr. Olivia Lawrence a seasoned physician
@@ -71,22 +71,22 @@ objectively and subjectively on those grounds. For Nuance we set our sights on
 DMO with 6 core principles in mind. Structure, Consistency, Simplicity, Access,
 Visibility, and context.
 
-Our finding from this exercise were able to be inserted directly into the
+Our findings from this exercise were able to be inserted directly into the
 backlog to be prioritized and added to their existing platform.
 
 ### PROTOTYPE
 
 A major goal of this engagement was to have something that could be placed in
-the hands of medical practitioners and purchasers so they could give feed back
+the hands of medical practitioners and purchasers so they could give feedback
 in a real time. To solve this goal we built a clickable prototype with Invision
-that was could be taken around and tested in real time.
+that could be taken around and tested in real time.
 
 ### SOLUTION
 
-Our solution to Nuance’s problem was there major and research assets that they
-can use as tools on their journey to savings doctors time, increasing the
+Our solution to Nuance’s problem was their major and research assets that they
+can use as tools on their journey to saving doctors time, increasing the
 quality of medical notes, and reducing the amount of churn around billing and
-coding. The final deliverables for this three week engagement are were a
+coding. The final deliverables for this three-week engagement were a
 heuristic review, an interactive prototype, and an experience prototype.
 
 ### RESULTS

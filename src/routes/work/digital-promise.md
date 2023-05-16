@@ -10,7 +10,7 @@ description: Helped an education focused non-profit chart out different learning
 
 Digital Promise in conjunction with Universal Mind set a goal of changing how
 the creators of educational software gain the knowledge they need to build the
-tools we use to educate. There is currently a large and disperse set of research
+tools we use to educate. There is currently a large and diverse set of research
 that is poorly organized and spread all over the internet, the Learner
 Positioning Systems, or LPS, set out to change that.
 
@@ -59,9 +59,9 @@ educational piece of software.
 
 We chose a color pallet that is common with elementary school, and used every
 opportunity to show simple shapes. In order to keep professionals interested we
-stuck with a clean an minimalistic design that focuses on white space and
+stuck with a clean and minimalistic design that focuses on white space and
 usability. Walking the line of trustworthy and closely integrated to the
-educational space in a visual design challange, but was very important to the
+educational space in a visual design challenge, but was very important to the
 client.
 
 ### ACCESSIBILITY

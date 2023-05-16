@@ -24,7 +24,7 @@ areas: Traits, Ancestry, the Explorer, Conditions, and Drug Response.
 <div class="aside">
 <div>
 
-Genos sets its self apart from competition through simplicity, data privacy,
+Genos sets itself apart from competition through simplicity, data privacy,
 data portability, and ability to sequence your whole genome. Competitors only
 sequence part of the genome (specifically the “exome”) and sell the user’s
 genome to researchers themselves; On Genos customers own their genetic data,
@@ -43,7 +43,7 @@ over time grew into UX team lead.
 
 ### BUSINESS CHALLENGE
 
-Complete Genomics Partnered with Universal Mind and frog design to build out a
+Complete Genomics Partnered with Universal Mind and Frog Design to build out a
 consumer portal that would allow regular folks to visualize and understand the
 information locked in their DNA through a new SAAS product called “Genos”
 
@@ -81,8 +81,8 @@ exploration project, and that’s what our stakeholders intended Genos to become
 
 ### Giving Context
 
-Your DNA consists of 3 billion base pairs which reside in 23 pairs of
-chromosomes, This is a lot of data to expose to a user at a single point in
+DNA consists of 3 billion base pairs which reside in 23 pairs of
+chromosomes. This is a lot of data to expose to a user at a single point in
 time. To help users understand how chromosomes, genes, and DNA all relate, the
 explorer uses HTML5 and CSS3 animation and transformation to walk a user through
 their genome and explain each step along the way from their full genome down to
@@ -121,7 +121,7 @@ Was this the right way to help them understand the system? Would any of them
 even notice that the tour was available?
 
 To answer these questions, the tour was quickly prototyped using rough
-grey-scale windows (shown here) and tested with folks in the target demographic
+grayscale windows (shown here) and tested with folks in the target demographic
 over a period of two days.
 
 </div>
@@ -150,10 +150,10 @@ as standard with high-end online experiences.
 ### RESEARCH
 
 During the project we quickly ran into concerns that the subject material was
-far too complicated for a unguided trip through the app. We built out a quick
+far too complicated for an unguided trip through the app. We built out a quick
 tour through the app that walked through some of the key features of the
 interface. To test our hypothesis that the tour would be both beneficial and
-sufficient we conducted a quick guerrilla research study ver a period of two
+sufficient we conducted a quick guerrilla research study over a period of two
 days. Here a few slides from our findings are shown.
 
 The study focused on having users talk through their understanding of the
@@ -190,7 +190,7 @@ We built a platform that is immediately useful but also scales as the scientific
 community unlocks more information about the human genome.
 
 These areas also brought us face to face with the FDA and the regulations around
-making to strong of claims between the links of genetic data, and its correlated
+making too strong of claims between the links of genetic data, and its correlated
 health risks.
 
 ### How the project lives on

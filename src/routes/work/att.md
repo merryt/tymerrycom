@@ -14,9 +14,9 @@ expert’s priorities, cultural impacts, consumer feedback, user experience, and
 technology capabilities with the intent to consolidate and differentiate MSS’s
 service offerings across digital touch points.
 
-**Network security is expensive, and most of the times confusing**. Everyone
+**Network security is expensive, and – most of the time – confusing.**. Everyone
 knows this — AT&T has spent years simplifying this complicated space and
-bringing the cost large scale network protection and recovery down. Over this
+bringing the cost of large-scale network protection and recovery down. Over this
 time they have partnered, acquired, or built over two dozen tools all with
 specific strengths and weaknesses, but much to the dismay of those selling the
 products there was a large overlap between product offerings.
@@ -26,7 +26,7 @@ products there was a large overlap between product offerings.
 
 Our challenge in this application was to consolidate an extensive list of
 security offerings in a way that makes sense to sales teams and customers, while
-still giving users their full list of features that the know to expect.
+still giving users their full list of features they expect.
 
 My specific role on this project was leading the User experience and strategy
 team. The team consisted of a strategist, a UX specialist, and myself. Also on
@@ -41,7 +41,7 @@ the project was a technical architect and a project manager.
 ### PROCESS
 
 I used both their strategic and experience focused approach, concentrating on
-identifying a visionary path forward to facilitate alignment as AT&T transition
+identifying a visionary path forward to facilitate alignment as AT&T transitioned
 from theoretical to practical. The process, designed to be iterative, involved 62 interviews, split between
 customers, sales teams, and subject matter expert interviews. From kickoff to
 final presentation the full project lasted 3 months. It resulted in
@@ -98,7 +98,7 @@ sales and installation process was opaque and confusing.
 </div>
 
 Utilizing our experience doing frequent quick research studies we were able to
-make small changes before problems got to large to fix.
+make small changes before problems got too large to fix.
 
 ### CULTURAL AND COMPETITIVE ANALYSIS
 
@@ -106,8 +106,7 @@ A Cultural Analysis addresses the Purposes, Practices, and People of an
 organization and compares them to the other companies in the space.
 
 What is happening internally is only part of the picture — AT&T had spent years
-growing its relationships with its customers, and with its internal stake
-holders, but competitors are changing daily.
+growing its relationships with its customers, and with its internal stakeholders, but competitors are changing daily.
 
 It is important to know where you compare to others in the space.
 
@@ -125,8 +124,8 @@ state and build to that state.
 Our solution to AT&Ts problem was an outline to consolidate, improve, and
 in-house their existing offerings. The final deliverable contained a roadmap to
 upgrading their Sales, CX, Training, and Alignment. Also outlined technical
-recommendation needed to build a reusable platform to increase agility and
-mobility for consolidation efforts.
+recommendations needed to build a reusable platform to increase agility and
+mobility for consolidation efforts as well as streamlined ways to deploy their existing software
 
 ### RESULTS
 

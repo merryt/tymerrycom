@@ -193,3 +193,54 @@ ol {
 	display: block;
 	margin-top: 15px;
 }
+
+blockquote {
+	border-left: 6px solid var(--accentColor);
+	margin-left: 0;
+	padding-left: 10px
+}
+
+code.language-js {}
+
+code {
+	font-family: monospace;
+	line-height: 150%;
+	background-color: #e4e9ef;
+	color: var(--accentColor);
+	padding: 4px 6px;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+pre>code {
+	font-weight: normal;
+	background-color: #1e2125;
+	color: #fdf9fa;
+	display: block;
+	padding: 10px;
+	font-size: 16px;
+}
+
+.template-string {
+	color: #f36868;
+}
+
+pre>code .punctuation {
+	color: #c993db
+}
+
+pre>code .interpolation-punctuation,
+pre>code .operator,
+pre>code .keyword {
+	color: #8989ef;
+}
+
+/* pre>code .template-punctuation, */
+pre>code .function {
+	color: #e3b570;
+}
+
+
+pre>code .parameter {
+	color: #a8d6fd;
+}

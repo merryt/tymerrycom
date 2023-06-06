@@ -1,5 +1,5 @@
 ---
-title: PRIME NUMBER SIEVE
+title: Pythagorean triplets
 date: 2023-6-5
 author: Tyler
 ---

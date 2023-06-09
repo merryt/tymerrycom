@@ -17,11 +17,7 @@ Positioning Systems, or LPS, set out to change that.
 Bringing all the research we have gained in the previous years and organizing it
 in an accessible way is no simple task. Each child is different with unique
 gifts and struggles. Vetting outstanding research and verifying its validity to
-those gifts and
-
-Our challenge in this application was to consolidate an extensive list of
-security offerings in a way that makes sense to sales teams and customers, while
-still giving users their full list of features that the know to expect.
+those gifts.
 
 For Digital Promise I was a visual designer, and front-end developer, but
 offered mentorship to the UX specialist on the project.

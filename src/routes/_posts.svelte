@@ -18,3 +18,9 @@
 		<slot />
 	</div>
 </div>
+
+<style>
+	.content img {
+		max-width: 100%;
+	}
+</style>

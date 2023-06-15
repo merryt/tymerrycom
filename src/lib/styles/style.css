@@ -151,6 +151,10 @@ ol {
 	}
 }
 
+.content img {
+	max-width: 100%;
+}
+
 .content h3 {
 	text-transform: uppercase;
 }

@@ -57,11 +57,11 @@ From within that tab we will need to give the group all our normal notification 
 ![Details of notifications within group tab](/temp/YT-accessManagement3.png)
 
 #### How everyday users see the notifications
-If you aren't a workspace manager your experience will largely stay the same. The only difference is that in your notification center there could be a "groups" tab, as well as groups messages in your "all notifications" feed.
+If you aren't a workspace manager your experience will largely stay the same. The only difference is that in your notification center there will be a "groups" tab, as well as groups messages in your "all notifications" feed.
 
 ![New notifications tab](/temp/YT-notifications2.png)
 
-but could also go to a new tab called "Groups" within the notifications popover. It would be great if we could keep all the [message actions](https://www.jetbrains.com/help/youtrack/server/notification-center.html#message-actions).
+It would be great if we could keep all the [message actions](https://www.jetbrains.com/help/youtrack/server/notification-center.html#message-actions).
 
 ![contents of new notifications tab](/temp/YT-notifications3.png)
 

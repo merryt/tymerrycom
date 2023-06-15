@@ -5,7 +5,7 @@ author: Tyler
 ---
 ## Meta comments
 - Shape up is opposed to high degrees of design detail in the pitching stage. I watched [this interview with Ryan Singer](https://www.youtube.com/watch?v=h_8M23wVjXk) where he mentions their systems works with a nearly 1:1 designer to developer ratio. That isn't the case here, and because I am applying for a product design role I added more detail well past the **annotated fat markers** recommendation from the book. If the design is so detailed it is stopping conversations from happening I would be HAPPY to switch out my assets for lower fidelity sketches.
-- I couldn't find a design system for YouTrack, so I took inspiration and assets from [Jetbrains UI kits](https://www.figma.com/@jetbrains)
+- I couldn't find a design system for YouTrack, so I took inspiration and assets from [jetbrains UI kits in figma](https://www.figma.com/@jetbrains) and their [ring UI in storybook](https://jetbrains.github.io/ring-ui/master/index.html)
 - I am keeping this together because it seems in the spirit of the work, and the system, but in a Scrum, SAFe, or Kanban system I would probably break down this work into two blocks:
 	1. Group notifications
 	2. Sending emails to Non-YouTrack users

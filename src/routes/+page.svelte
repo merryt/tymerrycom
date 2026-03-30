@@ -1,18 +1,7 @@
-<script context="module">
-	export const load = async ({ fetch }) => {
-		const posts = await fetch('api/blog.json');
-		const allPosts = await posts.json();
-		return {
-			props: {
-				posts: allPosts
-			}
-		};
-	};
-</script>
-
 <script>
 	import windowScrollPosition from '$lib/windowScrollPosition.js';
-	export let posts;
+	export let data;
+	let { posts } = data;
 	let y;
 </script>
 

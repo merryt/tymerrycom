@@ -27,7 +27,9 @@ export const GET = async () => {
         console.log('All posts resolved');
 
         const sortedPosts = allPosts.sort((a, b) => {
-            return new Date(b.meta.date) - new Date(a.meta.date)
+            const dateA = a.meta && a.meta.date ? new Date(a.meta.date) : new Date(0);
+            const dateB = b.meta && b.meta.date ? new Date(b.meta.date) : new Date(0);
+            return dateB - dateA;
         })
 
         console.log('Returning json response');

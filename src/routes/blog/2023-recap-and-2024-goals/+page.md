@@ -65,9 +65,3 @@ My Brother in Law got married.
 ### Related posts from 2023
 https://tymerry.com/blog/2023-favorite-movies-and-tv
 https://tymerry.com/chess
-### 2024 Goals
- * Get better at chess. 
- * Work through SICP
- * Stay consistent with BJJ and avoid major injuries.
- * Secure more permanent housing in Berlin.
- * Continue the "Founding Designer" push at Memfault, focusing on deliverables and scaling the design system.

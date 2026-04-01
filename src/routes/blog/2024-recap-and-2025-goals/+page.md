@@ -2,6 +2,7 @@
 title: 2024 Recap, 2025 Goals
 date: 2025-01-15
 author: Tyler
+mainImg: /2024-recap.png
 ---
 
 I could have never predicted where I was last year. 2025 was a year of new stuff, yet all kind of the same. Work was so busy and fun, the company grew to the point where they needed to make those hard organizational changes about splitting up into teams. We also had some core people need to step away for weeks/months at a time. Traveling and working remotely around the EU was fun, but I loved my time working out of the Berlin office.

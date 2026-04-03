@@ -1,6 +1,6 @@
 ---
 author: Tyler
-title: Nuance - Dragon Medical Advisor
+title: Nuance
 date: 2018-1-1
 mainImg: /workimgs/nuance-cover.jpg
 description: Did research for a doctor focused project that speeds up the note taking process by reducing the note taking rework that is part of the medical documentation space. 
@@ -9,7 +9,7 @@ description: Did research for a doctor focused project that speeds up the note t
 ### BUSINESS CHALLENGE
 
 Nuance Reached out to Universal Mind to help redefine a digital, voice based
-assistant for medical professionals. Nuance faced the problem of not knowing
+assistant for medical professionals called Dragon Medical Advisor. Nuance faced the problem of not knowing
 user research best practices and being overly familiar with the subject matter
 and development problems to come at the problem with a fresh set of eyes.
 

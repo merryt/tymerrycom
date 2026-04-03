@@ -1,7 +1,7 @@
 <script>
 	import windowScrollPosition from '$lib/windowScrollPosition.js';
 	export let data;
-	let { posts } = data;
+	let { posts, caseStudies } = data;
 	let y;
 </script>
 
@@ -39,7 +39,7 @@
 
 	<div class="home--info">
 		<h3>What do I do?</h3>
-		<div class="hipster-spacer" />
+		<div class="hipster-spacer"></div>
 		<p>
 			I like to help people, the way I normally do that is through building easy to use websites
 			that help people solve a problem. I also like to help people fix their bikes and maintain
@@ -51,13 +51,36 @@
 		</p>
 	</div>
 
+	<div class="home--case-studies">
+		<h3>Previous Work</h3>
+		<div class="hipster-spacer"></div>
+		<div class="home--case-studies-content">
+			{#each caseStudies as caseStudy, i}
+				{@const progress = i * (100 / Math.max(1, caseStudies.length - 1))}
+				{@const effectiveScroll = Math.max(0, y - 1200)}
+				{@const scrollRatio = Math.min(1, effectiveScroll / 800)}
+				{@const currentProgress = progress + (50 - progress) * scrollRatio}
+				<div class="case-study-item" style="width: fit-content; margin-left: {currentProgress}%; transform: translateX(-{currentProgress}%);">
+					<h4>
+						<a href={caseStudy.path}>{caseStudy.meta.title}</a>
+					</h4>
+				</div>
+			{/each}
+		</div>
+	</div>
+
+	<div class="home--posts-header">
+		<h3>My Writings</h3>
+		<div class="hipster-spacer"></div>
+	</div>
+
 	<div class="home--posts">
-		{#each posts.slice(0, 5) as post}
+		{#each posts.slice(0, 3) as post}
 			<article class="home--post item-boxshadow">
 				{#if post.meta.mainImg}
-					<div class="home--post-image" style="background-image: url({post.meta.mainImg})" />
+					<div class="home--post-image" style="background-image: url({post.meta.mainImg})"></div>
 				{:else}
-					<div class="home--post-image" />
+					<div class="home--post-image"></div>
 				{/if}
 				<div class="home--post-content">
 					<h4>
@@ -68,6 +91,10 @@
 				</div>
 			</article>
 		{/each}
+	</div>
+
+	<div class="view-all-container">
+		<a href="/blog" class="view-all-articles">View all articles</a>
 	</div>
 </div>
 
@@ -150,9 +177,62 @@
 	.home--info p {
 		text-align: center;
 	}
+	.home--case-studies {
+		width: 100vw;
+		position: relative;
+		left: 50%;
+		right: 50%;
+		margin-left: -50vw;
+		margin-right: -50vw;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		color: #fff;
+		background: var(--darkColor);
+		box-sizing: border-box;
+		padding: 100px 20px 80px 20px;
+		overflow: hidden;
+	}
+	.home--case-studies h3 {
+		margin-top: 0;
+	}
+	.home--case-studies .hipster-spacer {
+		background-color: #fff;
+	}
+	.home--case-studies-content {
+		width: 100%;
+		max-width: var(--desktop-container-width);
+		margin-top: 10px;
+	}
+	.case-study-item {
+		margin-bottom: 20px;
+		text-align: left;
+	}
+	.case-study-item a {
+		color: #fff;
+		text-decoration: none;
+		font-size: 32px;
+		font-weight: bold;
+		transition: color 0.3s ease;
+	}
+	.case-study-item a:hover {
+		color: var(--accentColor);
+	}
+	.home--posts-header {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		margin-top: 60px;
+		margin-bottom: 30px;
+	}
+	.home--posts-header h3 {
+		margin-top: 0;
+	}
 	.home--posts {
 		width: 90%;
-		margin: -30px auto 0 auto;
+		margin: 0 auto;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-between;
@@ -194,5 +274,23 @@
 		font-size: 15px;
 		font-weight: 400;
 		color: #15171a;
+	}
+	.view-all-container {
+		text-align: center;
+		margin: 40px 0 60px 0;
+	}
+	.view-all-articles {
+		display: inline-block;
+		padding: 12px 24px;
+		border: 2px solid var(--accentColor);
+		color: var(--textColor);
+		text-decoration: none;
+		font-weight: bold;
+		border-radius: 4px;
+		transition: all 0.3s ease;
+	}
+	.view-all-articles:hover {
+		background-color: var(--accentColor);
+		color: #fff;
 	}
 </style>

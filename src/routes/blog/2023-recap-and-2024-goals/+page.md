@@ -4,7 +4,7 @@ date: 2024-1-12
 author: Tyler
 ---
 
-If you want to[ review last years recap/goals post](https://tymerry.com/blog/2022-recap-and-2023-goals), you can, but it isn't necessary.
+If you want to [review last years recap/goals post](https://tymerry.com/blog/2022-recap-and-2023-goals), you can, but it isn't necessary.
 
 ### How did I do on my 2023 goals?
 - I saw me weight jump as high as 193 in the stress of helping care for Randi’s dad in his final days, I am guessing that had a lot to do with the place he was living had a ton of access to candy and junk food. I would like to see that drop down to 175 again. I am going to accomplish this by the following.

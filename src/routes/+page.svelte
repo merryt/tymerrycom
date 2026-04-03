@@ -62,7 +62,20 @@
 				{@const currentProgress = progress + (50 - progress) * scrollRatio}
 				<div class="case-study-item" style="width: fit-content; margin-left: {currentProgress}%; transform: translateX(-{currentProgress}%);">
 					<h4>
-						<a href={caseStudy.path}>{caseStudy.meta.title}</a>
+						<a href={caseStudy.path} class="case-study-link">
+							{#if caseStudy.meta.whiteLogo}
+								<span style="display: inline-flex; align-items: center; gap: 12px;">
+									<span class="company-logo" style="--logo-url: url('{caseStudy.meta.whiteLogo}');">
+										<img src={caseStudy.meta.whiteLogo} alt="{caseStudy.meta.title} logo" />
+									</span>
+									{#if caseStudy.meta.showTextWithLogo}
+										<span>{caseStudy.meta.title}</span>
+									{/if}
+								</span>
+							{:else}
+								{caseStudy.meta.title}
+							{/if}
+						</a>
 					</h4>
 				</div>
 			{/each}
@@ -218,6 +231,42 @@
 	}
 	.case-study-item a:hover {
 		color: var(--accentColor);
+	}
+	.company-logo {
+		display: inline-block;
+		position: relative;
+		transition: transform 0.3s ease;
+		transform-origin: left center;
+	}
+	.company-logo img {
+		max-height: 48px;
+		width: auto;
+		display: block;
+		opacity: 0;
+	}
+	.company-logo::after {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-color: #fff;
+		-webkit-mask-image: var(--logo-url);
+		-webkit-mask-size: contain;
+		-webkit-mask-repeat: no-repeat;
+		-webkit-mask-position: center left;
+		mask-image: var(--logo-url);
+		mask-size: contain;
+		mask-repeat: no-repeat;
+		mask-position: center left;
+		transition: background-color 0.3s ease;
+	}
+	.case-study-link:hover .company-logo {
+		transform: scale(1.05);
+	}
+	.case-study-link:hover .company-logo::after {
+		background-color: var(--accentColor);
 	}
 	.home--posts-header {
 		display: flex;

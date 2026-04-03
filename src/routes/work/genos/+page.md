@@ -4,6 +4,7 @@ title: Genos
 date: 2014-7-18
 mainImg: /workimgs/genos-computer.jpg
 description: Worked with a genetics company to build a direct to consumer product for sequencing their DNA and learning more about their genetic make up. 
+whiteLogo: /logos/genos.png
 ---
 
 ### GENOS BACKGROUND

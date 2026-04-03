@@ -4,6 +4,7 @@ title: Digital Promise
 date: 2017-6-1
 mainImg: /workimgs/digitalPromise-cover.jpg
 description: Helped an education focused non-profit chart out different learning styles so teachers can quickly adapt lesson plans to fit the individual needs of students.
+whiteLogo: /logos/digital-promise.png
 ---
 
 ### Business Challenge

@@ -4,6 +4,7 @@ title: Denverite
 date: 2017-1-1
 mainImg: /workimgs/denverite-cover.jpg
 description: Helped a local online only newspaper improve their online footprint through research and ux recomendations 
+whiteLogo: /logos/denverite.png
 ---
 
 ### Business Challenge

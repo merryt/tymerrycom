@@ -4,6 +4,7 @@ title: AT&T
 date: 2020-7-18
 mainImg: /workimgs/att1.jpg
 description: Helping AT&T reorganize their cyber security offerings and focus on a user first approach to bundling, selling, and creating products.
+whiteLogo: /logos/att.svg
 ---
 
 ### BUSINESS CHALLENGE

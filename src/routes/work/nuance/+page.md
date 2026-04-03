@@ -4,6 +4,7 @@ title: Nuance
 date: 2018-1-1
 mainImg: /workimgs/nuance-cover.jpg
 description: Did research for a doctor focused project that speeds up the note taking process by reducing the note taking rework that is part of the medical documentation space. 
+whiteLogo: /logos/nuance.png
 ---
 
 ### BUSINESS CHALLENGE

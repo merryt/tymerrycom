@@ -70,9 +70,15 @@ main {
 
 @media (max-width: 999px) {
 	main {
-		width: calc(100% - 20px);
-		margin: 10px;
 		min-height: calc(100vh - 94px - 3rem);
+	}
+}
+
+@media (max-width: 600px) {
+	main {
+		width: 100%;
+		max-width: 100%;
+		margin: 0;
 	}
 }
 
@@ -184,6 +190,7 @@ ol {
 		padding: 10px;
 	}
 }
+
 
 .content img {
 	max-width: 100%;

@@ -99,7 +99,7 @@
 </script>
 
 <header>
-	<a href="/" class="logo">Tyler Merry</a>
+	<a href="/" class="logo"><span class="first-name">Tyler</span> <span>Merry</span></a>
 	<nav>
 		<a href="/work" use:scrambleAction><span class="scramble-text">Case Studies</span></a>
 		<a href="https://github.com/merryt" use:scrambleAction>
@@ -144,11 +144,20 @@
 		font-family: 'Playfair Display', serif;
 		text-decoration: none;
 	}
+
+	.first-name {
+		margin-right: 8px;
+	}
 	@media (max-width: 600px) {
 		header {
 			width: 100%;
+			max-width: 100%;
+			margin: 0;
 		}
 		.logo {
+			font-size: 20px;
+		}
+		.first-name {
 			display: none;
 		}
 	}
@@ -185,10 +194,18 @@
 		background-color: rgba(255, 255, 255, 0.1);
 	}
 
+	@media (max-width: 999px) {
+		.logo,
+		nav > a {
+			font-size: 18px;
+		}
+	}
+
 	@media (max-width: 600px) {
 		nav > a {
 			justify-content: space-between;
-			padding: 4px;
+			padding: 4px 6px;
+			font-size: 16px;
 		}
 	}
 </style>

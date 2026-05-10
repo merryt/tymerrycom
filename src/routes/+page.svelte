@@ -186,8 +186,8 @@
 <div class="home">
 	<div class="home--hero">
 		<h4 class="home--hero-sub-header playfair-display-regular">
-			<span>Design</span><span class="home--hero-sub-header-divider">•</span><span>Development</span
-			><span class="home--hero-sub-header-divider">•</span><span>Product</span>
+			<span>Design</span><span class="home--hero-sub-header-divider">•</span><span>Product</span
+			><span class="home--hero-sub-header-divider">•</span><span>Development</span>
 		</h4>
 		<h2>Technology based<br />problem solver</h2>
 		<h3>I am not special but you make me feel that way, thanks for checking me out!</h3>
@@ -220,12 +220,14 @@
 			<div class="hipster-spacer"></div>
 			<p>
 				I like to help people, the way I normally do that is through building easy to use websites
-				that help people solve a problem. I also like to help people fix their bikes and maintain
-				hiking trails.
+				that help people solve a problems. With experience doing design, fullstack development and
+				product management, I am able to see projects from a systems level view and help deliver a
+				complete solution.
 			</p>
 			<p>
-				Previously I spoke at conferences, and ran meetups in Denver. Now I try to help more one on
-				one!
+				Outside of tech I love volenteering with a veriety of groups that teach programming to kids,
+				keep trails and natural spaces open to the public, prevent fires, and increasing access to
+				bikes.
 			</p>
 		</div>
 		<canvas use:glitchEffect class="home--info-photo" style=""></canvas>
@@ -394,14 +396,27 @@
 	}
 	.home--info h3 {
 		margin-top: 0;
+		font-size: 28px;
 	}
-	/*
-	 .home--info p {
-		text-align: center;
-	} */
+
+	.home--info p {
+		font-size: 18px;
+		line-height: 28px;
+		margin-bottom: 20px;
+	}
 	.home--info-photo {
 		flex: 1;
 		cursor: crosshair;
+	}
+
+	@media (max-width: 700px) {
+		.home--info-photo {
+			display: none;
+		}
+		.home--info {
+			padding-top: 5%;
+			padding-bottom: 5%;
+		}
 	}
 	.home--case-studies {
 		width: 100vw;

@@ -31,6 +31,16 @@ html {
 	--container-max-width: 90%;
 }
 
+:root[data-theme="light"] {
+	--backgroundColor: #f0f4f8;
+	--white: #102a43;
+	--accentColor: #243b53;
+	--textColor: #334e68;
+	--accentColorThree: #486581;
+	--accentColorFour: #bcccdc;
+	--darkColor: rgba(240, 244, 248, .99);
+}
+
 
 
 body {

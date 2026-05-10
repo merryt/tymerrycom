@@ -1,184 +1,11 @@
 <script>
-	import { onMount } from 'svelte';
 	import windowScrollPosition from '$lib/windowScrollPosition.js';
+	import { glitchEffect } from '$lib/glitchEffect.js';
 	import PostCard from '$lib/components/PostCard.svelte';
 	import Button from '$lib/components/Button.svelte';
 	export let data;
 	let { posts, caseStudies } = data;
 	let y;
-
-	function glitchEffect(node) {
-		const ctx = node.getContext('2d');
-		let width, height;
-		let animationId;
-		let mouse = { x: 0, y: 0, active: false };
-		let glitchIntensity = 0;
-		let lastX = 0,
-			lastY = 0;
-
-		const img = new Image();
-		img.src = '/two_tone_profile.jpg';
-
-		function resize() {
-			width = node.clientWidth;
-			height = node.clientHeight;
-			node.width = width * window.devicePixelRatio;
-			node.height = height * window.devicePixelRatio;
-			ctx.scale(window.devicePixelRatio, window.devicePixelRatio);
-		}
-
-		let currentZoom = 1.0;
-		let currentFocus = { x: 0.5, y: 0.5 };
-
-		function animate() {
-			if (!img.complete) {
-				animationId = requestAnimationFrame(animate);
-				return;
-			}
-
-			ctx.clearRect(0, 0, width, height);
-
-			// 1. Calculate Zoom and Focus based on mouse position
-			let targetZoom = 1.0;
-			let targetFocus = { x: 0.5, y: 0.5 };
-
-			if (mouse.active) {
-				const centerX = width / 2;
-				const centerY = height / 2;
-				const dx = mouse.x - centerX;
-				const dy = mouse.y - centerY;
-				const dist = Math.sqrt(dx * dx + dy * dy);
-				const maxDist = Math.sqrt(centerX * centerX + centerY * centerY);
-
-				// Keep the proximity zoom logic
-				targetZoom = 1.0 + (1 - Math.min(1, dist / maxDist)) * 0.2;
-
-				// Move focus towards the cursor
-				targetFocus.x = mouse.x / width;
-				targetFocus.y = mouse.y / height;
-			}
-
-			// Smooth transitions
-			currentZoom += (targetZoom - currentZoom) * 0.1;
-			currentFocus.x += (targetFocus.x - currentFocus.x) * 0.1;
-			currentFocus.y += (targetFocus.y - currentFocus.y) * 0.1;
-
-			// 2. Logic for "cover" behavior + Zoom Focus
-			const imgRatio = img.width / img.height;
-			const targetRatio = width / height;
-			let sx, sy, sw, sh;
-
-			if (imgRatio > targetRatio) {
-				sh = img.height;
-				sw = sh * targetRatio;
-				sx = (img.width - sw) / 2;
-				sy = 0;
-			} else {
-				sw = img.width;
-				sh = sw / targetRatio;
-				sx = 0;
-				sy = (img.height - sh) / 2;
-			}
-
-			// Apply zoom and focus to source coordinates
-			const swZ = sw / currentZoom;
-			const shZ = sh / currentZoom;
-
-			// Focus determines how the remaining space is distributed
-			const sxZ = sx + (sw - swZ) * currentFocus.x;
-			const syZ = sy + (sh - shZ) * currentFocus.y;
-
-			const drawBase = (ox = 0, oy = 0) => {
-				ctx.drawImage(img, sxZ, syZ, swZ, shZ, ox, oy, width, height);
-			};
-
-			// Base image
-			ctx.globalAlpha = 1.0;
-			drawBase();
-
-			// Only glitch if the mouse is moving (intensity > threshold)
-			if (mouse.active && glitchIntensity > 0.05) {
-				const intensity = Math.min(1.0, glitchIntensity);
-
-				// 1. RGB Split
-				if (Math.random() < 0.6 * intensity) {
-					ctx.save();
-					ctx.globalCompositeOperation = 'screen';
-					const offset = 15 * intensity;
-					ctx.globalAlpha = 0.5 * intensity;
-					drawBase((Math.random() - 0.5) * offset, (Math.random() - 0.5) * offset);
-					ctx.restore();
-				}
-
-				// 2. Horizontal Slices
-				const numSlices = Math.floor(20 * intensity);
-				for (let i = 0; i < numSlices; i++) {
-					if (Math.random() < 0.5 * intensity) {
-						const sliceY = Math.random() * height;
-						const sliceH = Math.random() * (50 * intensity) + 2;
-						const sliceX = (Math.random() - 0.5) * (80 * intensity);
-
-						// Calculate source slice coords using zoomed values
-						const sSliceY = syZ + (sliceY / height) * shZ;
-						const sSliceH = (sliceH / height) * shZ;
-
-						ctx.drawImage(img, sxZ, sSliceY, swZ, sSliceH, sliceX, sliceY, width, sliceH);
-					}
-				}
-
-				// 3. Noise Blocks
-				if (Math.random() < 0.3 * intensity) {
-					ctx.fillStyle = Math.random() > 0.5 ? 'rgba(255,255,255,0.15)' : 'rgba(0,0,0,0.15)';
-					ctx.fillRect(
-						Math.random() * width,
-						Math.random() * height,
-						Math.random() * 200 * intensity,
-						Math.random() * 40 * intensity
-					);
-				}
-
-				// Quickly decay intensity so it stops when mouse stops
-				glitchIntensity *= 0.9;
-			} else {
-				glitchIntensity = 0;
-			}
-
-			animationId = requestAnimationFrame(animate);
-		}
-
-		function onMouseMove(e) {
-			const rect = node.getBoundingClientRect();
-			const x = e.clientX - rect.left;
-			const y = e.clientY - rect.top;
-
-			const dx = x - lastX;
-			const dy = y - lastY;
-			const dist = Math.sqrt(dx * dx + dy * dy);
-
-			// Set glitch intensity based on movement speed
-			glitchIntensity = Math.max(glitchIntensity, dist / 40);
-
-			lastX = x;
-			lastY = y;
-			mouse.x = x;
-			mouse.y = y;
-		}
-
-		window.addEventListener('resize', resize);
-		node.addEventListener('mousemove', onMouseMove);
-		node.addEventListener('mouseenter', () => (mouse.active = true));
-		node.addEventListener('mouseleave', () => (mouse.active = false));
-
-		resize();
-		animate();
-
-		return {
-			destroy() {
-				window.removeEventListener('resize', resize);
-				cancelAnimationFrame(animationId);
-			}
-		};
-	}
 </script>
 
 <svelte:window bind:scrollY={y} />
@@ -192,27 +19,7 @@
 		<h2>Technology based<br />problem solver</h2>
 		<h3>I am not special but you make me feel that way, thanks for checking me out!</h3>
 	</div>
-	<!-- todo remove this block and delete these images form the repo -->
-	<!-- <div class="home--images">
-		<img
-			src="/wireframes1.jpg"
-			class="wireframes1"
-			alt="Pen and paper wireframes can be useful to get ideas down fast!"
-			style="transform: translateY({y / 10}px)"
-		/>
-		<img src="/climbing.jpg" class="climbing" alt="Tyler being a ham on a boat" />
-		<img
-			src="/golfcart.jpg"
-			class="golfcart"
-			alt="My friends and I like to get in trouble form time to time"
-		/>
-		<img
-			src="/speaking1.jpeg"
-			class="speaking1"
-			alt="My friends and I like to get in trouble form time to time"
-			style="transform: translateX(-{y / 10}px)"
-		/>
-	</div> -->
+
 
 	<div class="home--info">
 		<div>
@@ -304,13 +111,7 @@
 			margin: 0 0 58px 0;
 		}
 	}
-	.home--hero h1 {
-		font-size: 70px;
-		line-height: 74px;
-		margin-bottom: 0;
-		display: inline-block;
-		border-bottom: 16px solid var(--accentColor);
-	}
+
 	.home--hero h2 {
 		font-weight: 700;
 		font-size: 40px;
@@ -338,37 +139,7 @@
 		margin-left: 10px;
 		margin-right: 10px;
 	}
-	.home--images {
-		display: grid;
-		grid-template-columns: 10% 30% 50% 10%;
-		margin-bottom: 20px;
-	}
-	.home--images .speaking1,
-	.home--images .climbing {
-		grid-column-start: 3;
-		grid-column-end: 4;
-		width: 110%;
-		margin-left: -5%;
-		margin-top: 10%;
-		z-index: 10;
-	}
-	.home--images .wireframes1,
-	.home--images .golfcart {
-		grid-column-start: 2;
-		grid-column-end: 3;
-		width: 100%;
-		z-index: 9;
-	}
-	.home--images .wireframes1 {
-		margin-left: 25px;
-	}
-	.home--images .golfcart {
-		margin-top: -2%;
-	}
-	.home--images .speaking1 {
-		margin-top: 10px;
-		margin-left: 100px;
-	}
+
 	.hipster-spacer {
 		min-height: 3px;
 		width: 7%;
@@ -548,60 +319,10 @@
 		flex-wrap: wrap;
 		justify-content: space-between;
 	}
-	.home--post {
-		flex: 1 1 300px;
-		box-sizing: border-box;
-		border-radius: 4px;
-		margin: 0 20px 40px 20px;
-		border: 1px solid #e5e5e5;
-		overflow: hidden;
-	}
-	.home--post-content {
-		margin: 15px;
-	}
-	.home--post .home--post-image {
-		background: url('https://picsum.photos/id/472/400/200');
-		width: auto;
-		height: 200px;
-		background-size: cover;
-	}
-	.home--post:nth-child(12n + 3) {
-		flex: 1 1 100%;
-		display: flex;
-		height: 240px;
-	}
-	.home--post:nth-child(12n + 3) .home--post-image {
-		width: 100%;
-		height: 100%;
-	}
-	.home--post:nth-child(12n + 3) .home--post-content {
-		width: 50%;
-	}
-	.home--post h4 > a {
-		text-decoration: none;
-		color: #333;
-	}
-	.home--post p {
-		font-size: 15px;
-		font-weight: 400;
-		color: #15171a;
-	}
+
 	.view-all-container {
 		text-align: center;
 		margin: 40px 0 60px 0;
 	}
-	.view-all-articles {
-		display: inline-block;
-		padding: 12px 24px;
-		border: 2px solid var(--accentColor);
-		color: var(--textColor);
-		text-decoration: none;
-		font-weight: bold;
-		border-radius: 4px;
-		transition: all 0.3s ease;
-	}
-	.view-all-articles:hover {
-		background-color: var(--accentColor);
-		color: var(--white);
-	}
+
 </style>

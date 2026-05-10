@@ -1,23 +1,18 @@
 <script>
 	export let data;
 	let { posts } = data;
+	import PostCard from '$lib/components/PostCard.svelte';
 </script>
 
 <div class="work-items">
 	{#each posts as post}
-		<div class="work-item item-boxshadow">
-			<div>
-				<div class="work-item-img-container" style="background-image: url('{post.meta.mainImg}')" />
-			</div>
-			<div class="work-item-content">
-				<h2 class="work-item-header">
-					<a href={post.path}>
-						{post.meta.title}
-					</a>
-				</h2>
-				<p>{post.meta.description}</p>
-			</div>
-		</div>
+		<PostCard
+			path={post.path}
+			title={post.meta.title}
+			mainImg={post.meta.mainImg}
+			description={post.meta.description}
+			variant="work"
+		/>
 	{/each}
 </div>
 
@@ -27,7 +22,7 @@
 		margin-bottom: 10px;
 		align-items: stretch;
 		border-radius: 6px;
-		background-color: #fff;
+		background-color: var(--lightColor);
 		overflow: hidden;
 		border: 1px solid #e5e5e5;
 	}

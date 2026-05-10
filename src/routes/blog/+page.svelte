@@ -1,21 +1,20 @@
 <script>
 	export let data;
 	let { posts } = data;
-	import UpdatedDate from '$lib/components/UpdatedDate.svelte';
+	import PostCard from '$lib/components/PostCard.svelte';
 </script>
 
 <h1>Blog</h1>
 
 {#each posts as post}
-	<div class="post item-boxshadow">
-		<h2>
-			<a href={post.path}>
-				{post.meta.title}
-			</a>
-		</h2>
-		Published <UpdatedDate date={post.meta.date} />
-	</div>
+	<PostCard 
+		path={post.path} 
+		title={post.meta.title} 
+		date={post.meta.date} 
+		variant="default" 
+	/>
 {/each}
+
 
 <style>
 	.post {
